@@ -1,4 +1,4 @@
-package org.example.enumerators.src.main.java.onepiece.entity;
+package onepiece.entity;
 
 public class Pirata {
 }
