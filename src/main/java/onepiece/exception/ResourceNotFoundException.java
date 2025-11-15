@@ -1,4 +1,8 @@
-package org.example.enumerators.src.main.java.onepiece.exception;
+package onepiece.exception;
 
-public class ResourceNotFoundException {
+public class ResourceNotFoundException extends RuntimeException {
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
 }
