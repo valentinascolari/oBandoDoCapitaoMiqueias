@@ -1,4 +1,11 @@
-package org.example.enumerators.src.main.java.onepiece.repository;
+package onepiece.repository;
 
-public class PirataRepository {
+import onepiece.entity.Pirata;
+import onepiece.enums.Raca;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+public interface PirataRepository extends JpaRepository<Pirata, Long> {
+
+    List<Pirata> findByRaca(Raca raca);
 }
