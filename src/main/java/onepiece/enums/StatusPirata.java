@@ -1,6 +1,6 @@
-package org.example.enumerators.src.main.java.onepiece.enums;
+package onepiece.enums;
 
 public enum StatusPirata {
-    ATIVO, CAPTURADO
-
+    ATIVO,
+    CAPTURADO
 }

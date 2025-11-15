@@ -1,5 +1,9 @@
-package org.example.enumerators.src.main.java.onepiece.enums;
+package onepiece.enums;
 
 public enum Raca {
-    HUMANO, CIBORGUE, MINK, TRITAO, ANAO
+    HUMANO,
+    CIBORGUE,
+    MINK,
+    TRITAO,
+    ANAO
 }
